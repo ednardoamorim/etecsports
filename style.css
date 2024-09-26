@@ -139,6 +139,13 @@
     flex-direction: row;
 }
 
+#corpomain section section button {
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 #titulomain {
     display: flex;
     justify-content: center;
@@ -256,4 +263,33 @@
     color: #555; 
     font-size: 22px; 
     margin-bottom: 15px; 
+}
+
+#facaoteste {
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    color: #3c3c3c;
+    background-color: aqua;
+    border-color: linear-gradient(50deg, #7c7c7c, #5c5c5c);
+    padding: 8px 8px 8px 8px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+#facaoteste:hover {
+    color: aqua;
+    background-color: #192b5b;
+    transition: 0.3s;
+    text-shadow: 0px 2px 20px #000000;
+}
+
+
+#mainbutao{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-left: 40px;
 }
